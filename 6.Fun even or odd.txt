@@ -1,0 +1,19 @@
+write a function to check whether the given number is even or odd
+
+
+
+#python code goes here
+#python version :3 
+def fun(x):
+    a=x
+    if(a%2==0):
+    	print(a, "is even")
+    else:
+        print(a, "is odd")
+fun(3)
+
+
+
+
+Output:
+(3, 'is odd') 

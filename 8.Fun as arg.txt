@@ -1,0 +1,27 @@
+Write a function that takes an exploder function and N. the exploder function explodes the given string into N times
+
+ Function Prototype:
+    Exploder(string,n)
+    Myfun(string,exploder,n)
+ Input: guvi 5
+ Output: guviguviguviguviguvi 
+
+
+
+
+
+#python code goes here
+#python version :3
+list=['guvi']
+def explode(x):
+    print x*5
+def my_map_simple(fun,list):
+	for item in list:
+   		fun(item)
+my_map_simple(explode,list) 
+
+
+
+Output:
+guviguviguviguviguvi       
+    

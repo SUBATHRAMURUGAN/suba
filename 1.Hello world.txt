@@ -1,0 +1,10 @@
+Print a Statement "Hello World"
+
+
+#python code goes here
+#python version :3 
+print("Hello World")
+
+
+Output:
+Hello World

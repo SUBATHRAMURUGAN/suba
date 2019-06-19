@@ -1,0 +1,19 @@
+Jarvis has a list of names and he wants to convert the list items into uppercase. Write a function that takes list and converts all the items in the list to upper
+
+PS: Use list comprehension to solve this
+
+
+
+
+#python code goes here
+#python version :3 
+list=['suba','maha','nanDy','Kiru']
+def fun(x):
+	return x.upper()
+new_list=[fun(x) for x in list]
+print(new_list)
+
+
+
+Output:
+['SUBA', 'MAHA', 'NANDY', 'KIRU'] 

@@ -1,0 +1,19 @@
+Get the age of the user through input and print whether the age is eligible for voting or not, if the age is 20 print eligible else print not eligible.
+
+
+
+#python code goes here
+#python version :3 
+age=int(input("Enter your age: "))
+print(age)
+if(age==20):
+    print("Eligible")
+else:
+    print("Not eligible")
+
+
+
+Input:20
+
+Output:
+Enter your age: 20 Eligible 

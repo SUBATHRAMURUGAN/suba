@@ -1,0 +1,37 @@
+Write a program by declaring 10 variables and use all the mathematical Operations?
+
+
+#python code goes here
+#python version :3 
+a=2
+b=3
+c=6
+d=4
+e=10
+f=5
+g=7
+h=8
+i=9
+j=20
+add=a+b
+sub=c-d
+mul=e*f
+div=g/h
+mod=j%i
+expo=a**b
+floor=c//d
+if(c<d):
+	print("c is big")
+else:
+    print("c is small")
+print(add)
+print(sub)
+print(mul)
+print(div)
+print(mod)
+print(expo)
+Print(floor)
+
+
+Output:
+c is small 5 2 50 0 2 8 

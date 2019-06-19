@@ -1,0 +1,32 @@
+Print the length of this string 'programmer'
+
+
+#python code goes here
+#python version :3 
+str="programmer"
+print(len(str))
+
+
+Output:
+10 
+
+
+
+
+
+From the string ‘Programmer‘ 
+Find the Number of letter ‘r‘ occurrences, 
+Position of letter ‘g’ 
+Replace the ‘m’ with ‘Y’
+
+
+#python code goes here
+#python version :3 
+str='Programmer'
+print(str.count('r'))
+print(str.find("g"))
+print(str.replace("m","Y"))
+
+
+Output:
+3 3 PrograYYer 

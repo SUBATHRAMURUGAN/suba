@@ -1,0 +1,14 @@
+Write a program to print 'Hello' 5 times.
+
+
+
+#python code goes here
+#python version :3 
+for i in range(5):
+	print("Hello")
+
+
+
+
+Output:
+Hello Hello Hello Hello Hello 
